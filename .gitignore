@@ -15,7 +15,8 @@ build/
 dist/
 
 # Archivos de IDEs
-.vscode/
+.vscode/*
+!.vscode/c_cpp_properties.json
 .idea/
 *.swp
 *.swo

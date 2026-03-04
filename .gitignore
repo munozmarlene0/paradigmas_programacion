@@ -1,0 +1,32 @@
+# Archivos compilados
+*.exe
+*.out
+*.o
+*.class
+*.obj
+*.dll
+*.so
+*.dylib
+
+# Directorios de salida
+output/
+bin/
+build/
+dist/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.tmp
+*.bak
+*.log

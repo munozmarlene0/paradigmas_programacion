@@ -1,0 +1,16 @@
+#include <iostream>                             // Librería para entrada/salida
+#include <functional>                           // Librería para funciones
+using namespace std;                            // Usar espacio de nombres estándar
+
+void saludar() {                                // Función normal (la acción)
+    cout << "Hola" << endl;                     // Imprimir saludo
+}
+
+void ejecutar(function<void()> func) {          // Función que recibe otra función
+    func();                                     // Ejecutar la función recibida
+}                                               // function<void()> es el tipo
+
+int main() {                                    // Función principal
+    ejecutar(saludar);                          // Pasar 'saludar' como dato
+    return 0;                                   // Fin del programa
+}
